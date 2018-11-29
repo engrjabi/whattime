@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Time Widget",
+  "version": "0.1.0",
+  "description": "Showing the time you need on every page",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["<all_urls>"]
+  }]
+
+}

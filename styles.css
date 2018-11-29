@@ -1,0 +1,20 @@
+#mydiv {
+    position: fixed;
+    z-index: 214748;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    top: 92%;
+    left: 8px;
+}
+
+#mydivheader {
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
