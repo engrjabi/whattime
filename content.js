@@ -13,15 +13,12 @@ draggableElementControl.setAttribute('id', 'mydivheader');
 draggableElement.appendChild(draggableElementControl);
 document.body.appendChild(draggableElement);
 
-console.log('draggableElement', draggableElement);
-
 dragElement(document.getElementById('mydiv'));
 
 setInterval(function () {
 	const timeNow = calcTime('+1');
-	console.log('timeNow', timeNow);
 	if (draggableElementControl.innerHTML !== timeNow) draggableElementControl.innerHTML = timeNow;
-}, 5000);
+}, 15000);
 
 function calcTime(offset) {
 	// create Date object for current location
